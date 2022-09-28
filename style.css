@@ -1,0 +1,205 @@
+body {
+    padding: 0px 500px 0px 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3F4958;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container>* {
+    flex: 1 100%;
+}
+
+
+
+.text {
+    text-align: left;
+}
+
+.asideleft {
+    text-align: left;
+    order: 1;
+}
+
+.asideright {
+    text-align: left;
+    order: 2;
+    padding-left: 50%;
+
+
+}
+
+.back {
+    text-align: left;
+    order: 5;
+}
+
+.continue {
+    text-align: right;
+    order: 6;
+
+}
+
+.checkbox-container {
+    text-align: left;
+    order: 4;
+    padding: 3% 0 2% 0;
+}
+
+.aside {
+    margin-top: 0%;
+    padding-top: 0%;
+    flex: 1 0 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+h4 {
+    order: 2;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-weight: 100;
+
+
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+p {
+    color: #6D7482;
+
+}
+
+h3 {
+
+    font-weight: 110px;
+    font-size: 14px;
+    color: #6D7482;
+
+}
+
+#numbers {
+    border-radius: 50%;
+    padding: 1.5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #2FB8A6;
+    margin-left: 5%;
+    color: aliceblue;
+}
+
+#numbers.fourth,
+#numbers.three {
+    color: #4F46E5;
+    background-color: #ffff;
+}
+
+#numbers.two {
+    background-color: #4F46E5;
+
+}
+
+h4.cabin {
+    color: #2FB8A6;
+}
+
+.one {
+    order: 1;
+
+}
+
+.two {
+    order: 2;
+
+}
+
+.three {
+    order: 5;
+
+}
+
+.fourth {
+
+    order: 8;
+
+}
+
+.meals {
+    order: 2;
+    color: #4F46E5
+}
+
+
+.upgrades {
+    order: 6;
+
+}
+
+.payment {
+    order: 9;
+
+
+}
+
+.line {
+
+    background-color: #2FB8A6;
+    order: 2;
+}
+
+h6 {
+    color: #2FB8A6;
+    background-color: #2FB8A6;
+    margin-left: 2%;
+    font-size: 2px;
+    margin-right: 0%;
+}
+
+select#Breakfast {
+    color: #6D7482;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+
+    min-width: 290%;
+}
+
+select#Drink {
+    color: #6D7482;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+
+    max-width: 100%;
+}
+
+.backbth{
+    color: #6D7482;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+
+    max-width: 100%;
+}
+.continuebth{
+    background-color: #4F46E5; /* Green */
+    color: #ffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    max-width: 100%;
+}
